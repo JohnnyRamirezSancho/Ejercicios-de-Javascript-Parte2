@@ -9,6 +9,11 @@
 <body>
     <h1>Ejercicios de JavaScript</h1>
     <h2>Cálculo de precio total con IVA</h2>
+    <form onsubmit="return false;">
+        <input type="text" name="precioBase" id="precioBase" placeholder="Precio base">
+        <input type="text" name="porcentajeIva" id="porcentajeIva" placeholder="Porcentaje de IVA (sin el %)">
+        <button onclick="mostrarPrecioTotal()">Calcular IVA</button>
+    </form>
     <div id="ejercicioIva"></div>
     <script src="./assets/js/app-1.js"></script>
 </body>
